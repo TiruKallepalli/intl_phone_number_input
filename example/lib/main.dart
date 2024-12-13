@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               ignoreBlank: false,
               autoValidateMode: AutovalidateMode.disabled,
-              selectorTextStyle: TextStyle(color: Colors.black),
+              selectorTextStyle: TextStyle(color: Colors.white),
               initialValue: number,
               textFieldController: controller,
               formatInput: true,
