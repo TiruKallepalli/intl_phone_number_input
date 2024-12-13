@@ -6,11 +6,11 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var darkTheme = ThemeData.light().copyWith(primaryColor: Colors.blue);
+    var darkTheme = ThemeData.dark().copyWith(primaryColor: Colors.blue);
 
     return MaterialApp(
       title: 'Demo',
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.dark,
       darkTheme: darkTheme,
       theme: ThemeData(
         primarySwatch: Colors.blue,
